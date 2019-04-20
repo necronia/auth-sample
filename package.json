@@ -1,0 +1,23 @@
+{
+  "name": "auth-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "script": {
+    "start": "node server.js",
+    "test": "standard"
+  },
+  "repository": "https://github.com/necronia/auth-sample.git",
+  "author": "necronia <necronia44@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.0.3",
+    "mongoose": "^5.5.2",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.7.0"
+  }
+}
